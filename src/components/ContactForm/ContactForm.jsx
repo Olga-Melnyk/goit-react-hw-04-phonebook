@@ -41,13 +41,6 @@ export const ContactForm = ({ onSubmit }) => {
       onSubmit={(values, actions) => {
         onSubmit(values, actions);
       }}
-      // onSubmit={(values, actions) => {
-      //   onSubmit({
-      //     ...values,
-      //     id: nanoid(),
-      //   });
-      //   actions.resetForm();
-      // }}
     >
       <ContainerForm>
         <Label>
